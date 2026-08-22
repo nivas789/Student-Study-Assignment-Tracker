@@ -1,0 +1,12 @@
+OData Service: ZSTUDENT_TRACKER_SRV
+
+Entity Type:
+StudentAssignment
+
+Entity Set:
+StudentAssignmentSet
+
+Implemented Operations:
+- GET_ENTITYSET
+- GET_ENTITY
+- CREATE_ENTITY
