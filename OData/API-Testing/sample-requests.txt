@@ -1,0 +1,37 @@
+SAP STUDENT STUDY AND ASSIGNMENT TRACKER
+OData API Testing
+
+1. Service Root
+
+GET
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/
+
+
+2. Metadata
+
+GET
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/$metadata
+
+
+3. Get All Assignments
+
+GET
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/StudentAssignmentSet
+
+
+4. Get One Assignment
+
+GET
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/StudentAssignmentSet(<KEY>)
+
+
+5. Create Assignment
+
+POST
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/StudentAssignmentSet
+
+Content-Type:
+application/json
+
+Note:
+POST requests require the appropriate CSRF token when required by SAP Gateway.
