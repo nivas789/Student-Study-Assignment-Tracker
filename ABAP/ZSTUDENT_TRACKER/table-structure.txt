@@ -1,0 +1,13 @@
+ZSTUDENT_TRACKER
+
+Purpose:
+Stores student study and assignment information for the SAP Student Study and Assignment Tracker.
+
+Database Object:
+ZSTUDENT_TRACKER
+
+Used By:
+- ABAP Report
+- Report Output
+- SAP Gateway OData Service
+- StudentAssignment Entity
