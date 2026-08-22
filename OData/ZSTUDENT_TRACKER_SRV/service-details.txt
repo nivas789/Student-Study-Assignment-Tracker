@@ -1,0 +1,27 @@
+SAP Gateway OData Service Details
+
+Service Name:
+ZSTUDENT_TRACKER_SRV
+
+Entity Type:
+StudentAssignment
+
+Entity Set:
+StudentAssignmentSet
+
+Service Root:
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/
+
+Metadata:
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/$metadata
+
+Entity Set:
+/sap/opu/odata/sap/ZSTUDENT_TRACKER_SRV/StudentAssignmentSet
+
+Implemented Operations:
+GET_ENTITYSET
+GET_ENTITY
+CREATE_ENTITY
+
+Testing Tool:
+SAP Gateway Client
